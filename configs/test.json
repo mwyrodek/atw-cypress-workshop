@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://displate.com",
+    "env":{
+        "shortTimeout": 5000,
+        "mediumTimeout": 5000,
+        "longTimeout": 15000
+    }
+}

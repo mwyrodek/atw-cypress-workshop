@@ -1,0 +1,20 @@
+{
+  "name": "atw-cypress-workshop",
+  "version": "1.0.0",
+  "description": "Cypress Workshop for Automatyzacja Testów W Praktyce Conference",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwyrodek/atw-cypress-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwyrodek/atw-cypress-workshop/issues"
+  },
+  "homepage": "https://github.com/mwyrodek/atw-cypress-workshop#readme",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  }
+}
