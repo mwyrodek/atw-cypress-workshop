@@ -104,3 +104,4 @@ dist
 .tern-port
 /.idea/
 /cypress.env.json
+/cypress/videos/add-to-cart/add-from-product-page.js.mp4

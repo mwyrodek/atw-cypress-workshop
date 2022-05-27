@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe('Adding to cart', ()=>{
+describe('Adding to cart', {tags: ["@Smoke", '@Regression', "@Cart", "@Critcal", '@ProductPage']}, ()=>{
     beforeEach(()=>
     {
         //cy.clearCookies();

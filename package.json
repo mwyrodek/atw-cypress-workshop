@@ -2,7 +2,9 @@
   "name": "atw-cypress-workshop",
   "version": "1.0.0",
   "description": "Cypress Workshop for Automatyzacja Testów W Praktyce Conference",
-  "scripts": {},
+  "scripts": {
+    "cy:prod-smoke":" npx cypress run  --env grepTags=@Smoke+@Cart --config-file ./configs/prod.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mwyrodek/atw-cypress-workshop.git"
@@ -15,6 +17,7 @@
   },
   "homepage": "https://github.com/mwyrodek/atw-cypress-workshop#readme",
   "dependencies": {
-    "cypress": "^9.7.0"
+    "cypress": "^9.7.0",
+    "cypress-grep": "^2.13.1"
   }
 }
